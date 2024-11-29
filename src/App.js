@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import KanbanBoard from './components/KanbanBoard';
-import '/Users/muralijayam/Desktop/kanban-board/src/App.css';
+import './App.css';
+
 
 function App() {
   const [groupBy, setGroupBy] = useState(() => localStorage.getItem('groupBy') || 'status');
