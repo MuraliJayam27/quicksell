@@ -1,0 +1,26 @@
+.sort-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .sort-selector label {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .sort-selector select {
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  .sort-selector select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
